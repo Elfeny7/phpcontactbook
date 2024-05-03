@@ -25,7 +25,7 @@ steps:
       - 'ssh'
       - 'vm-kuliah'  # Replace with the name of your Compute Engine VM instance
       - '--zone=asia-southeast2-a'  # Replace with the zone of your Compute Engine VM instance
-      - '--command=sudo mysql -u root < /var/www/html/data.sql'
+      - '--command=sudo mysql -u root < /var/www/html/contact/data.sql'
     dir: '/var/www/html/contact'  # Specify the directory where your source code is cloned
 
 # Optionally, you can specify the timeout for the entire build process
